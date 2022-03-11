@@ -8,15 +8,15 @@
 def main():
     # this function adds 0.1 and 0.2
 
-    # input
-    number = float(input("Enter a number: "))
-
     # process
-    output = number + 1
+    total = 0.1 + 0.2
 
     # output
+    print("0.1 + 0.2 = ?")
     print("")
-    print("Your answer is {0:,.2f}".format(output))
+    print("Your answer is {0} without scientific notation".format(total))
+    print("")
+    print("Your answer is {0:.1e} with scientific notation".format(total))
     print("\nDone.")
 
 
